@@ -1,7 +1,7 @@
 FROM debian:stretch-slim
 
 ENV MONGO_VERSION=4.2
-ENV MONGO_UTILS_VERSION=${MONGO_VERSION}.8
+ENV MONGO_UTILS_VERSION=${MONGO_VERSION}.10
 
 RUN apt-get update
 RUN apt-get -y upgrade
